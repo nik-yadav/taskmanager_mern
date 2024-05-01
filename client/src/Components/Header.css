@@ -1,0 +1,23 @@
+.h-wrapper{
+    z-index: 10;
+    position: sticky;
+    top:0;
+    background: rgb(30,30,30);
+}
+.h-container{
+    gap: 40rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+    color: var(--secondary);
+}
+.h-menu{
+    gap: 2rem
+}
+.h-menu > *:hover{
+    cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+

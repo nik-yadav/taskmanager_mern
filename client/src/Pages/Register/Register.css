@@ -1,0 +1,53 @@
+.wrapper{
+    height: 100vh;
+    margin-top: 6rem;
+    width: 40rem;
+    margin-left: 28rem;
+}
+.l-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 4rem 10rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+.img-container img {
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    border-radius: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+form input{
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+
+.line{
+    border-bottom: 1.5px solid black;
+    margin-top: 2rem;
+    width: 20rem;
+    padding: auto 4rem;
+}
+
+.button1 {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    padding: 0.6rem 4rem;
+    color: white;
+    background: rgb(92, 243, 212);
+    border: none;
+    transition: all 300ms ease-in; 
+    border-radius: 4px;
+  }
+  
+  .button1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
